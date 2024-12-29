@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.box1{
+    background-color: rgb(22, 20, 20);
+    height: 150px;
+    width: 350px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin: 10px;
+}
+.box2{
+    background-color: rgb(22, 20, 20);
+    height: 470px;
+    width: 350px;
+    border-radius: 10px;
+    border: 1px solid black;
+    display: flex;
+    margin: 10px;
+}
+.row1{
+}
+.container{
+    display: flex;
+    
+}
+.column1{
+    background-color: rgb(22, 20, 20);;
+    height: 87vh;
+    width: 80vw;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
+footer{
+    height: 8vh;
+    width: 98.8vw;
+    background-color: rgba(115, 46, 120, 0.752);
+    top: 100px;
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+    border: 1px solid rgba(115, 46, 120, 0.752);
+    font-weight: bolder;
+    justify-content: space-around;
+}
+.box1 ul >li :nth-child(2){
+color: white;
+font-weight: bolder;
+font-size: 20px;
+text-decoration: none;
+}
+.box1 ul li img{
+    background-color: rgb(22, 20, 20);
+}
+.home ul li img{
+width: 25px;
+
+}
+.home ul{
+    display: flex;
+    color: white;
+    font-weight: bolder;
+    list-style: none;
+    gap: 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-left: -20px;
+    
+}
+.search ul li{
+    width: 25px;
+}
+.search ul{
+    display: flex;
+    color: white;
+    font-weight: bolder;
+    list-style: none;
+    gap: 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-left: -20px;
+}
+
+
